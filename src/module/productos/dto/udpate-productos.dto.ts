@@ -1,6 +1,7 @@
 import { IsOptional, IsString, IsBoolean, IsNumber, IsArray } from "class-validator";
-import { Clientes } from "src/module/clientes/schema/clientes.schema";
 import { Types } from "mongoose";
+import { Clientes } from "src/module/clientes/schema/clientes.schema";
+
 
 export class UpdateProductosDto {
 

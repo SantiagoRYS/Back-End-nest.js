@@ -80,9 +80,9 @@ export class ProveedoresServices{
             {activo_proveedor: true},
             {new : true})
             .exec();
-            if(!result){
-                throw new NotFoundException(`Proveedor con Id ${id} no se encontro`);
-            }
+        if(!result){
+            throw new NotFoundException(`Proveedor con Id ${id} no se encontro`);
+        }
         
     }
 
