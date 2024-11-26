@@ -1,15 +1,14 @@
 import React from "react";
-import "./footer.css";
+import "./footer.css"; // Si deseas aplicar estilos específicos al footer
 
 const Footer = () => {
-    //constante para obtener el año actual de forma dinamica
-    const currentYear = new Date().getFullYear(); 
+  const currentYear = new Date().getFullYear(); // Obtener el año actual dinámicamente
 
-    return(
-        <footer className="footer">
-            <p>{currentYear} SENA. All rights reserved.</p>
-        </footer>
-    );
+  return (
+    <footer className="footer">
+      <p>© {currentYear} SENA. All rights reserved.</p>
+    </footer>
+  );
 };
 
 export default Footer;

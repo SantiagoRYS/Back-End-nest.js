@@ -18,8 +18,8 @@ async function bootstrap() {
         .build();
     const document = swagger_1.SwaggerModule.createDocument(app, config);
     swagger_1.SwaggerModule.setup('api', app, document);
-    console.log(`Documentación de Swagger está disponible en: http://localhost:3000/api`);
-    await app.listen(3000);
+    console.log(`Documentación de Swagger está disponible en: http://localhost:2000/api`);
+    await app.listen(2000);
 }
 bootstrap();
 //# sourceMappingURL=main.js.map
